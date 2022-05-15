@@ -1,8 +1,23 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/cocoa-dev-1/blockchain.git",
-  "author": "cocoa-dev-1 <sinmounbu0510@naver.com>",
-  "license": "MIT"
+  "scripts": {
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocoa-dev-1/blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cocoa-dev-1/blockchain/issues"
+  },
+  "homepage": "https://github.com/cocoa-dev-1/blockchain#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
